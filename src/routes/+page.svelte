@@ -1,4 +1,3 @@
-<p>Welcome to the predictor for the Blumenwies indoor pool</p>
 <script>
     import { PUBLIC_BASE_URL } from '$env/static/public';
  	import axios from "axios";
@@ -12,7 +11,7 @@
 	function handleSubmit() {
 		let url =
             PUBLIC_BASE_URL +
-            "/api/prediction/indoorpool?season=" +
+            "/api/prediction?season=" +
             season +
             "&precipitationMm=" +
             precipitationMm +
