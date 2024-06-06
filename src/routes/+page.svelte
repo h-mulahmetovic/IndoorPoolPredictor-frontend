@@ -19,7 +19,7 @@
             tempMaxC;
         console.log(url);
         axios.get(url).then((response) => {
-            price = response.data;
+            visitors = response.data;
         });
 	}
 </script>
